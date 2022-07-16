@@ -1,0 +1,360 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	outline: none !important;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	max-width: 1401px;
+	width: 100%;
+	/*padding-right: 15px;*/
+	/*padding-left: 15px;*/
+	margin: 0 auto;
+}
+.nav {
+	margin-top: 36px;
+	margin-bottom: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.nav__row a {
+	margin-right: 40px;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 16px;
+	color: #1F2428;
+}
+.contact__block {
+	display: flex;
+}
+.user__block {
+	margin-right: 42px;
+	display: flex;
+	/*width: 100%;*/
+	/*max-width: 73px;*/
+	align-items: center;
+	justify-content: space-between;
+}
+.user__block p {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 16px;
+	color: #1F2428;
+}
+.user__block img{
+	margin-right: 11px;
+}
+.btn__call {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 48px;
+    width: 170px;
+    border: none;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+	box-shadow: 0px 4px 4px rgba(1, 203, 124, 0.2);
+	border-radius: 36px;
+    cursor: pointer;
+}
+.section__intro {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1800px;
+	background: linear-gradient(79.63deg, #5B52A3 1.08%, #40B8EA 100%);
+	border-radius: 36px;
+}
+.intro {
+	padding-top: 54px;
+	padding-bottom: 54px;
+	width: 100%;
+	max-width: 1340px;
+	display: flex;
+	align-items: center;
+}
+.intro__left {
+	display: flex;
+	flex-direction: column;
+	margin-right: 52px;
+	width: 100%;
+	max-width: 715px;
+}
+.intro__left h1 {
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 80px;
+	color: #FFFFFF;
+}
+.intro__left p {
+	margin-top: 8px;
+	margin-bottom: 36px;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 42px;
+	color: #FFFFFF;
+}
+.section--last {
+	margin-top: 160px;
+}
+.section__title {
+	font-weight: 800;
+	font-size: 44px;
+	line-height: 50px;
+	color: #1F2428;		
+}
+.nav__bar {
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+	width: 100%;
+	max-width: 1400px;
+	height: 100px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+	border-radius: 16px;
+}
+.arrow__left, .arrow__right {
+	/*width: 100%;*/
+	/*max-width: 70px;*/
+
+	display: flex;
+	align-items: center;
+	vertical-align: center;
+}
+.arrow__left {
+	padding-left: 27px;
+	/*margin-left: 27px;*/
+}
+.arrow__right {
+	padding-right: 27px;
+	/*margin-left: 15px;*/
+}
+.nav__list {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-width: 1260px;
+	justify-content: space-between;
+}
+.nav__list .list__item {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	cursor: pointer;
+	transition: all .2s;
+}
+.nav__list .list__item:hover {
+	background: #F2F6FC;
+}
+.nav__list .list__item img {
+	margin-right: 17px;
+	margin-left: 20px;
+	width: 52px;
+	height: 52px;
+}
+.nav__list .list__item p {
+	font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* 1 */
+
+color: #1F2428;
+
+}
+.price__right__title, .price__left__title {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 36px;
+	color: #1F2428;
+}
+.price__right, .price__left {
+	width: 400px;
+	
+}
+.price__center {
+	width: 500px;
+	height: 475px;
+	background: url(../img/bg-1.png) center no-repeat;
+}
+.price__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 47px;
+
+}
+.price__rus, .price__uk {
+	background: #F2F6FC;
+	border-radius: 16px;
+	margin-top: 26px;
+	display: flex;
+	align-items: center;
+
+}
+.price__rus, .price__uk img {
+	padding-left: 34px;
+	padding-top: 33px;
+	padding-bottom: 33px;
+}
+
+.price__text {
+	padding-left: 28px;
+}
+.name__price {
+	font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* 1 */
+
+color: #1F2428;
+}
+.price__left .number__price {
+	font-weight: 700;
+font-size: 26px;
+line-height: 36px;
+/* identical to box height, or 138% */
+
+
+/* 1 */
+
+color: #1F2428;
+}
+.price__right .number__price {
+	font-weight: 700;
+font-size: 26px;
+line-height: 36px;
+/* identical to box height, or 138% */
+
+
+/* 7 */
+
+color: #01CD7D;
+
+}
+.product__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.product__right, .product__left {
+	display: flex;
+	align-items: center;
+	
+}
+.arrow__prod--r {
+	margin-right: 40px;
+}
+.arrow__prod--l {
+	margin-left: 40px;
+}
+.next__img, .prev__img {
+	background: url(../img/bg-2.png) center no-repeat;
+	width: 120px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.delivery__text {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 24px;
+	/* identical to box height, or 133% */
+
+	text-align: center;
+
+	/* 1 */
+
+	color: #1F2428;
+
+}
+.sale__price {
+	font-weight: 700;
+font-size: 26px;
+line-height: 36px;
+/* identical to box height, or 138% */
+
+text-align: center;
+
+/* 1 */
+
+color: #1F2428;
+}
+
+.advantage {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 70px rgba(138, 138, 138, 0.1);
+	border-radius: 16px;
+	padding: 20px;
+}
+.advantage__item {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	color: #1F2428;
+}
+.advantage {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.section__advantage {
+	margin-top: 160px;
+	margin-bottom: 160px;
+}
+.advantage__item {
+	padding-top: 33px;
+	padding-bottom: 47px;
+	display: flex;
+	align-items: center;
+	border-right: 1px solid #C0C9D7;
+	padding-right: 50px;
+}
+.advantage__item img {
+	margin-right: 26px;
+	width: 60px;
+	height: 60px;
+}
+.advantage__item:last-child {
+	border: none;
+}
+.intro__right--2 {
+	margin-right: 75px;
+}
+.section__intro--2 h1 {
+	font-weight: 700;
+font-size: 30px;
+line-height: 40px;
+/* or 133% */
+
+
+/* 4 */
+
+color: #FFFFFF;
+}
