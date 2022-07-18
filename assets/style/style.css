@@ -469,7 +469,8 @@ color: #222222;
 	flex-direction: column;
 }
 .options {
-	
+	display: flex;
+	justify-content: space-between;
 	padding-left: 29px;
 	padding-top: 11px;
 	padding-bottom: 11px;
@@ -499,4 +500,131 @@ color: #222222;
 	width: 52px;
 	height: 52px;
 	margin-right: 27px;
+}
+.shipping__item {
+	display: flex;
+	flex-direction: column;
+	padding-left: 45px;
+	border-left: 1px solid #C0C9D7;
+	padding-right: 50px;
+	justify-content: center;
+}
+.shipping__title {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #222222;
+	margin-bottom: 6px;
+}
+.shipping__text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 16px;
+	color: #222222;
+	padding-right: 7px;
+}
+.shipping__right {
+	display: flex;
+	/*width: 100%;*/
+	/*max-width: 690px;*/
+}
+.shipping__drop {
+	display: flex;
+	align-items: center;
+}
+.img__info {
+	width: 16px !important;
+	height: 16px !important;
+}
+.drop {
+	width: 14px !important;
+	height: 7px !important;
+}
+.shipping__item:last-child {
+	padding-left: 16px;
+	padding-right: 22px;
+}
+.step__caption {
+	font-weight: 800;
+	font-size: 44px;
+	line-height: 56px;
+	color: #1F2428;
+}
+.step__caption {
+	margin-top: 160px;
+	width: 100%;
+	max-width: 695px;
+	margin-bottom: 14px;
+}
+.step {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.step__item h3 {
+	margin-top: 16px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #1F2428;
+}
+.step__item p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 30px;
+	color: #1F2428;
+	margin-top: 7px;
+}
+.step__text {
+	margin-top: 50px;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 36px;
+	color: #1F2428;
+	margin-bottom: 30px;
+}
+.step__shipping {
+	margin-bottom: 150px;
+}
+.excellence__caption {
+	font-weight: 800;
+	font-size: 44px;
+	line-height: 56px;
+	color: #1F2428;
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 834px;
+}
+.excellence__text {
+	margin-bottom: 40px;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 36px;
+	color: #1F2428;
+}
+.excellence__text-1 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	color: #1F2428;
+	margin-top: 30px;
+}
+.excellence__text-2 {
+	margin-top: 10px;
+	font-weight: 300;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+/* 1 */
+
+color: #1F2428;
+}
+.excellence {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 80px;
 }
